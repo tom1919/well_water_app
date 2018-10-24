@@ -1,0 +1,12 @@
+name: aliens_exist
+title: aliens_exist
+username:
+account: tom888
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 530638
+bundleId: 1659311
+url: https://tom888.shinyapps.io/aliens_exist/
+when: 1540338938.90125
+asMultiple: FALSE
+asStatic: FALSE

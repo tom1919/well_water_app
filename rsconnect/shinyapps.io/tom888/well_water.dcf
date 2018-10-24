@@ -1,0 +1,12 @@
+name: well_water
+title: well_water
+username:
+account: tom888
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 530570
+bundleId: 1658450
+url: https://tom888.shinyapps.io/well_water/
+when: 1540317082.59366
+asMultiple: FALSE
+asStatic: FALSE
