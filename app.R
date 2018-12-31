@@ -152,10 +152,10 @@ server2 <- function(input, output) {
       labs(title = "Well Water Level",
            x = 'Date', y = 'Water Level (Ft)') +
       theme_bw()  +
-      theme(plot.title = element_text(hjust = .5, size = 20, face = "bold"),
-            axis.text = element_text(size =14),
-            axis.title = element_text(size = 18),
-            legend.text = element_text(size = 12),
+      theme(plot.title = element_text(hjust = .5, size = 22, face = "bold"),
+            axis.text = element_text(size =16),
+            axis.title = element_text(size = 20),
+            legend.text = element_text(size = 14),
             legend.title=element_blank())
     # create interactive plot
     ggplotly(p11) 
@@ -194,9 +194,9 @@ server2 <- function(input, output) {
     p <- p + labs(title = "Well Water Level",
                   x = 'Date', y = 'Water Level (Ft)', color = "Type") +
       theme_bw()  +
-      theme(plot.title = element_text(hjust = .5, size = 20, face = "bold"),
-            axis.text = element_text(size =14),
-            axis.title = element_text(size = 18),
+      theme(plot.title = element_text(hjust = .5, size = 22, face = "bold"),
+            axis.text = element_text(size =16),
+            axis.title = element_text(size = 20),
             legend.text = element_text(size = 14),
             legend.title=element_blank())
     # make ggplot interactive
@@ -225,9 +225,9 @@ server2 <- function(input, output) {
       labs(title = "Model Error",
            x = 'Date', y = 'Error') +
       theme_bw()  +
-      theme(plot.title = element_text(hjust = .5, size = 20, face = "bold"),
-            axis.text = element_text(size =14),
-            axis.title = element_text(size = 18),
+      theme(plot.title = element_text(hjust = .5, size = 22, face = "bold"),
+            axis.text = element_text(size =16),
+            axis.title = element_text(size = 20),
             legend.text = element_text(size = 14),
             legend.title=element_blank())
     # plot the residual plot if they are not all NA otherwise 
